@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="chat.css">
+        <link rel="stylesheet" href="home.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+        <link rel="stylesheet" href="inter.css">
+    </head>
+    <body>
+       <div id="chatContainer">
+           <div id="sidebar">
+                 <div>
+                      <div class="container1">
+                          <img src="0.jpg">
+                          <p><span><b>Chris Fox.</b></span><br>Software Developer.</p>
+                      </div>
+              
+                 </div>
+                 <div class="col-rt-3 equal-height">
+                     <div class="sb-example-3">
+                         <div class="search__container">
+                             <input class="search__input" type="text" placeholder="Search">
+                          </div>
+                        </div>
+                    </div>
+             
+                  <div class="container">
+                      <img src="2.jpg">
+                    <p><span><b>Aaron.</b></span><br>Software Executive</p>
+                  </div>
+                  <div class="container">
+                    <img src="3.jpg">
+                  <p><span><b>Barry.</b></span><br>Software Designer</p>
+                </div>
+                <div class="container">
+                    <img src="4.jpg">
+                  <p><span><b>Daniel .</b></span><br>Software Programmer</p>
+                </div>
+                <div class="container">
+                    <img src="5.jpg">
+                  <p><span><b>Eddy.</b></span><br>System Designer</p>
+                </div>
+                <div class="container">
+                  <img src="6.jpg">
+                <p><span><b> Fabe.</b></span><br>Project Manager</p>
+              </div>
+              <div class="container">
+                  <img src="1.jpg">
+                <p><span><b>Harry.</b></span><br>Information Systems Manager</p>
+              </div>
+              
+              </div>
+              <div id="sidebarHeader">
+                <div class="container17">
+                           <div class="container19"><img src="7.jpg">
+                              <h2><b>Potter</b></h2></div>
+                              <div class="container20"><img src="searchicon.png"></div>
+                <div class="container21"><img src="fav.png"></div>
+                <div class="container22"><img src="bell.png"></div>
+              </div>
+                          <div class="content">
+
+                  <div class="full-chat-block">
+              
+              <!-- Message Container -->
+              
+                       <div class="outer-container">
+                                
+                           <div class="chat-container">
+                            <div class="chat-bar-input-block">
+                              <i class=" material-icons" style="color: black;" 
+                              onclick="Button()">mic</i>
+
+                              <div id="userInput">
+
+                                <input id="textInput" class="input-box" type="text" name="msg" placeholder="Tap 'Enter' to send a message">
+
+                                        <p></p>
+
+                                             </div>
+
+                                  <div class="chat-bar-icons">
+                                             <i class=" material-icons" style="color: black;" 
+                                              onclick="Button()">attachment</i>
+                                              <i id="chat-icon" style="color:black;" class="fa fa-fw fa-camera" 
+                                              onclick="heartButton()"></i> 
+                                              <i id="chat-icon" style="color: black;" class="fa fa-fw fa-send"
+                                               onclick="sendButton()"></i>
+                                  </div>
+                               </div>
+                                        <div id="chat-bar-bottom">
+                                              <p></p>
+
+                                       </div>
+      
+                 </div>
+              
+              <!-- Messages -->
+              
+                                <div id="chatbox">
+              
+                                        <h5 id="chat-timestamp"></h5>
+              
+                                        <p id="botStarterMessage" class="botText"><span>Loading...</span></p>
+              
+                               </div>
+                               <!-- User input box -->
+
+                                     
+              
+                     </div>
+              
+                  </div>
+              
+              </div>
+
+           
+              
+
+              </div>
+               <div class="col-rt-4 equal-height">
+                         <div class="sb-example-4">
+                       
+                                     <div class="search__container">
+    
+                                        <input class="search__input" type="text" placeholder="Search">
+                                      </div>
+                                    <div class="container2">
+                                                  <img src="7.jpg"><div id="a">
+                                                    <p><b>Potter</b><br><br>Junior Developer</p>
+                                             </div>
+                                    
+                                   </div>
+                                   <div >
+                                                <div class="container4"><div class="container3"><img src="9.png"><p>Chat</p></div></div>
+                                                <div class="container7"><div class="container5"><img src="10.png"><br><p>Video Call</p></div></div>
+                                                
+                                                
+                                           
+                                    </div>
+                                    <div class="container13"><img src="admin.jpeg">
+                                        <div class="container8"><p>View friends</p></div>
+                                        
+                                    </div><br>
+                                    <div class="container13"><img src="fav.png">
+                                      <div class="container8"><p>View friends</p></div>
+                                      
+                                  </div>
+                                  </div>
+                                  <div>
+                                    <h4>Attachments</h4>
+                                        <div class="container10"><h6>PDF</h6></div>
+                                        <div  class="container10"><h6>Video</h6></div>
+                                        <div  class="container10"><h6>mp3</h6></div>
+                                        <div  class="container10"><h6>Image</h6></div>
+                                  </div><BR>
+                                  <div class="container11"><h7>View all</h7></div>
+                                   
+                                  
+                                  
+                         </div>
+                    
+                  
+                
+                 </div>
+              </div>
+        </div>
+        </div>
+    </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="respones.js"></script>
+    <script src="chat.js"></script>
+
+</html>
